@@ -1,16 +1,15 @@
 #gridContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 50px;
 }
 
 #grid {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    width: 544px;
-    height: 544px;
+    min-width: 544px;
+    min-height: 544px;
+    max-width: 544px;
+    max-height: 544px;
     border: 3px dashed black;
 }
 
@@ -18,18 +17,6 @@
     border: 1px solid black;
     width: 32px;
     height: 32px;
-}
-
-.grid-rows {
-    display: flex;
-    flex-direction: row;
-}
-
-.grid-columns {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-height: 544px;
 }
 
 .title {
